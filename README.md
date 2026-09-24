@@ -6,7 +6,7 @@ One folder per week. Before each lecture the blank notebook is posted; after it,
 
 | Week | Blank notebook | Open in Colab | Complete notebook and code |
 |---|---|---|---|
-| 1 | [lecture01_solow_blank.ipynb](week01/lecture01_solow_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week01/lecture01_solow_blank.ipynb) | after the lecture |
+| 1 | [lecture01_solow_blank.ipynb](week01/lecture01_solow_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week01/lecture01_solow_blank.ipynb) | [lecture01_solow.ipynb](week01/lecture01_solow.ipynb), [code](week01/code) |
 | 2 | [lecture02_rootfinding_olg_blank.ipynb](week02/lecture02_rootfinding_olg_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week02/lecture02_rootfinding_olg_blank.ipynb) | after the lecture |
 
 Slides, method cards, deadlines and the module's rules on generative AI are on Blackboard. Your own project code lives in your private repository, not here.
