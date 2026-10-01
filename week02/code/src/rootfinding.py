@@ -59,6 +59,28 @@ def newton(f, x0, fprime=None, tol=1e-10, max_iter=50, h=1e-6):
     raise RuntimeError(f"newton: no convergence after {max_iter} iterations")
 
 
+def secant(f, x0, x1, tol=1e-10, max_iter=50):
+    """Find a root of f by the secant method from two starting points.
+
+    Newton with the derivative replaced by the slope of the line through the
+    last two iterates. Returns (root, iterates).
+    """
+    f0, f1 = f(x0), f(x1)
+    iterates = [x0, x1]
+    for _ in range(max_iter):
+        if f1 == f0:
+            raise RuntimeError("secant: flat secant line (f(x0) == f(x1))")
+        x2 = x1 - f1 * (x1 - x0) / (f1 - f0)
+        iterates.append(x2)
+        if not np.isfinite(x2):
+            raise RuntimeError(f"secant: left the domain at x = {float(x2):.4g}")
+        if abs(x2 - x1) < tol:
+            return x2, iterates
+        x0, f0 = x1, f1
+        x1, f1 = x2, f(x2)
+    raise RuntimeError(f"secant: no convergence after {max_iter} iterations")
+
+
 # --- the running example: the Solow residual ---------------------------------
 
 def solow_residual(k, alpha=0.33, s=0.30, n=0.03, g=0.04, delta=0.15):

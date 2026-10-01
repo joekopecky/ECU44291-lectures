@@ -41,6 +41,13 @@ def test_newton_leaves_the_domain_from_a_bad_start():
             newton(solow_residual, 0.1, fprime=solow_residual_prime)
 
 
+def test_secant_converges():
+    from rootfinding import secant
+    root, its = secant(solow_residual, 3.0, 3.5)
+    assert root == pytest.approx(KSTAR, abs=1e-8)
+    assert len(its) < 12
+
+
 def test_olg_resource_constraint_holds():
     p = params()
     ss = steady_state(solve_by_root(p), p)
