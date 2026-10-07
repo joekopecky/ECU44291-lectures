@@ -11,6 +11,12 @@ One folder per week. Before each lecture the blank notebook is posted; after it,
 | 3 | [lecture03_lifecycle_blank.ipynb](week03/lecture03_lifecycle_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week03/lecture03_lifecycle_blank.ipynb) | [lecture03_lifecycle.ipynb](week03/lecture03_lifecycle.ipynb), [code](week03/code) |
 | 4 | [lecture04_vfi_blank.ipynb](week04/lecture04_vfi_blank.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week04/lecture04_vfi_blank.ipynb) | after the lecture |
 
+## Tutorials
+
+| Tutorial | Exercise notebook | Worked | Open the worked version in Colab |
+|---|---|---|---|
+| 1 (7 Oct) | [tutorial01.ipynb](week03/tutorial01.ipynb) | [tutorial01_complete.ipynb](week03/tutorial01_complete.ipynb); Exercise 3's broken solvers in [tutorial01_debrief.ipynb](week03/tutorial01_debrief.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week03/tutorial01_complete.ipynb) |
+
 Slides, method cards, deadlines and the module's rules on generative AI are on Blackboard. Your own project code lives in your private repository, not here.
 
 ## Getting the notebooks into your project
