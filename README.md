@@ -17,6 +17,10 @@ One folder per week. Before each lecture the blank notebook is posted; after it,
 |---|---|---|---|
 | 1 (7 Oct) | [tutorial01.ipynb](week03/tutorial01.ipynb) | [tutorial01_complete.ipynb](week03/tutorial01_complete.ipynb); Exercise 3's broken solvers in [tutorial01_debrief.ipynb](week03/tutorial01_debrief.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/week03/tutorial01_complete.ipynb) |
 
+## Reference
+
+- **Python cheat sheet: an attempt to demystify our code.** [python_cheatsheet.ipynb](reference/python_cheatsheet.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joekopecky/ECU44291-lectures/blob/main/reference/python_cheatsheet.ipynb). The symbols and lines in our code that look like magic, taken apart. The PDF is on Blackboard.
+
 Slides, method cards, deadlines and the module's rules on generative AI are on Blackboard. Your own project code lives in your private repository, not here.
 
 ## Getting the notebooks into your project
